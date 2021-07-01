@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,IACI,iBAAkB,CAClB,SAAU,CACV,UAAW,CACX,OAAQ,CACR,cAAe,CACf,cAAc,CACd,eACJ","file":"main.9539c6b4.chunk.css","sourcesContent":[".fb {\n    position: absolute; \n    z-index: 1; \n    bottom: 50%;\n    right: 0;\n    cursor: pointer;\n    min-width:50px;\n    min-height:30px    \n}\n"]}
