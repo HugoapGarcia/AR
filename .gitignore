@@ -12,7 +12,7 @@
 /build
 
 # src
-/src/components/assets
+# /src/components/assets
 
 # misc
 .DS_Store
