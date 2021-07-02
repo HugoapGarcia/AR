@@ -1,4 +1,4 @@
-
+export * from './basicScene.jsx';
 export * from './tracking.jsx';
 export * from './earthTracking.jsx';
 

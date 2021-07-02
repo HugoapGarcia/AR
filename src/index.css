@@ -1,0 +1,27 @@
+.fb {
+    position: absolute; 
+    z-index: 1; 
+    bottom: 50%;
+    right: 0;
+    cursor: pointer;
+    min-width:50px;
+    min-height:30px    
+}
+.tw {
+    position: absolute; 
+    z-index: 1; 
+    bottom: 40%;
+    right: 0;
+    cursor: pointer;
+    min-width:50px;
+    min-height:30px   
+}
+.link{
+    position: absolute; 
+    z-index: 1; 
+    bottom: 30%;
+    right: 0;
+    cursor: pointer;
+    min-width:50px;
+    min-height:30px 
+}
