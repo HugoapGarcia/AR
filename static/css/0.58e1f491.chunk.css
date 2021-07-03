@@ -1,2 +1,0 @@
-.nav{position:absolute;z-index:1;bottom:40%;left:0}.nav button{background-color:#0ff;border-radius:15px;padding-bottom:10px;padding-top:10px;border:none;cursor:pointer}.fb{bottom:50%}.fb,.tw{position:absolute;z-index:1;right:0;cursor:pointer;min-width:50px;min-height:30px}.tw{bottom:40%}.link{position:absolute;z-index:1;bottom:30%;right:0;cursor:pointer;min-width:50px;min-height:30px}@media only screen and (max-height:480px){.fb{bottom:65%}.tw{bottom:45%}.link{bottom:25%}}
-/*# sourceMappingURL=0.58e1f491.chunk.css.map */
