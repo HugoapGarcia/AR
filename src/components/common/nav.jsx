@@ -17,7 +17,7 @@ const NavComponent = () => {
                 <Link to="/"><button>Tracking Square</button></Link><br/><br/>
                 <Link to="/earth"><button>Tracking Earth-Image</button></Link><br/><br/>
                 <Link to='/model'><button>Tracking 3D-Model</button></Link><br/><br/>
-                <a href='/#/basicScene'><button>3D-Scene</button></a>
+                <Link href='/#/basicScene'><button>3D-Scene</button></Link>
             </div>
         </>
     )
