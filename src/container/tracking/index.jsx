@@ -1,18 +1,20 @@
 
 import React, { Component } from 'react';
 
-import { TrackMarker } from '../../components/common';
+import { NavComponent, TrackMarker, SocialMediaComponent } from '../../components/common';
 
 class TrackingContainer extends Component {
 
     // eslint-disable-next-line 
     constructor(props) {
-        super(props)
+        super(props);
     }
     render() {
         return (
             <>
+                <NavComponent />
                 <TrackMarker />
+                <SocialMediaComponent />
             </>
 
         );

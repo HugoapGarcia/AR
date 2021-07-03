@@ -1,14 +1,14 @@
 import React from 'react';
-import { AFrameRenderer } from '../../helpers';
 
 const BasicSceneComponent = () => {
   
+
     return (
         <>
             <a-scene arjs="debugUIEnabled: false; sourceType: image ">
                 <a-assets>
-                    <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossOrigin="anonymous" />
-                    <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossOrigin="anonymous" />
+                    <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossOrigin="anonymous" alt="groundTexture" />
+                    <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossOrigin="anonymous" alt="skyTexture" />
                     <a-mixin id="voxel"
                         geometry="primitive: box; height: 0.5; width: 0.5; depth: 0.5"
                         material="shader: standard"

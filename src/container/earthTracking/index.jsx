@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-import { EarthTrackComponent } from '../../components/common';
+import { NavComponent, EarthTrackComponent, SocialMediaComponent } from '../../components/common';
 
 class EearthTrackingContainer extends Component {
 
@@ -12,7 +12,9 @@ class EearthTrackingContainer extends Component {
     render() {
         return (
             <>
+                <NavComponent />
                 <EarthTrackComponent />
+                <SocialMediaComponent />
             </>
 
         );

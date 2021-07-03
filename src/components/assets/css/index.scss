@@ -1,3 +1,18 @@
+.nav{
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: 0;
+    button{
+        background-color: aqua;
+        border-radius: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
 .fb {
     position: absolute; 
     z-index: 1; 
@@ -25,3 +40,14 @@
     min-width:50px;
     min-height:30px 
 }
+@media only screen and (max-height: 480px) {
+    .fb {
+        bottom: 65%;   
+    }
+    .tw {
+        bottom: 45%; 
+    }
+    .link{
+        bottom: 25%;
+    }
+  }

@@ -1,9 +1,11 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 const TrackingScence = React.lazy(() => import('./container/tracking'));
 const EarthTrackingScence = React.lazy(() => import('./container/earthTracking'));
 const ModelTrackingScence = React.lazy(() => import('./container/3Dmodel'));
+const BasicTemplateScence = React.lazy(() => import('./container/sceneTemplate'));
 
 const AppRouter = () => {
 
@@ -20,6 +22,9 @@ const AppRouter = () => {
                         </Route>
                         <Route exact path="/model">
                             <ModelTrackingScence />
+                        </Route>
+                        <Route exact path="/basicScene">
+                            <BasicTemplateScence />
                         </Route>
                     </Switch>
                 </Router>

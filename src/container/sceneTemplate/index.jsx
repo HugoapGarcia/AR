@@ -1,9 +1,9 @@
 
 import React, { Component } from 'react';
 
-import { NavComponent, ModelTrackMarkerComponent, SocialMediaComponent } from '../../components/common';
+import { NavComponent, BasicSceneComponent, SocialMediaComponent } from '../../components/common';
 
-class ModelTrackingContainer extends Component {
+class SceneTemplateContainer extends Component {
 
     // eslint-disable-next-line 
     constructor(props) {
@@ -13,7 +13,7 @@ class ModelTrackingContainer extends Component {
         return (
             <>
                 <NavComponent />
-                <ModelTrackMarkerComponent />
+                <BasicSceneComponent />
                 <SocialMediaComponent />
             </>
 
@@ -21,4 +21,4 @@ class ModelTrackingContainer extends Component {
     }
 }
 
-export default ModelTrackingContainer;
+export default SceneTemplateContainer;

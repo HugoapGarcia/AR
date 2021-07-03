@@ -1,8 +1,10 @@
 import React from 'react';
 
+// eslint-disable-next-line 
 import { AFrameRenderer, Marker } from '../../helpers';
 
 const ModelTrackMarkerComponent = () => {
+    
     return (
         <>
             {/* <AFrameRenderer arToolKit={{ sourceType: 'webcam', trackingMethod: 'best' }}>

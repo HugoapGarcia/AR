@@ -1,7 +1,8 @@
-import React from 'react';
+import React  from 'react';
 
 import earthImage from '../assets/img/earth.png';
 
+// eslint-disable-next-line 
 import { AFrameRenderer, Marker } from '../../helpers';
 
 
@@ -27,7 +28,7 @@ const EarthTrackComponent = () => {
         // </AFrameRenderer>
         <a-scene arjs="sourceType:webcam">
             <a-assets>
-                <img id="earthImage" src={earthImage} />
+                <img id="earthImage" src={earthImage} alt="earthImage"/>
             </a-assets>
             <a-marker preset="hiro">
 
