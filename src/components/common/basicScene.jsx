@@ -1,11 +1,12 @@
 import React from 'react';
 
 const BasicSceneComponent = () => {
-  
+
+   
 
     return (
         <>
-            <a-scene arjs="debugUIEnabled: false; sourceType: image ">
+            <a-scene arjs="debugUIEnabled: false; sourceType: image" renderer="logarithmicDepthBuffer: true;">
                 <a-assets>
                     <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossOrigin="anonymous" alt="groundTexture" />
                     <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossOrigin="anonymous" alt="skyTexture" />
