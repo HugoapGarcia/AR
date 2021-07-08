@@ -14,10 +14,10 @@ const NavComponent = () => {
     return (
         <>
             <div className="nav">
-                <Link to="/"><button>Tracking Square</button></Link><br/><br/>
-                <Link to="/earth"><button>Tracking Earth-Image</button></Link><br/><br/>
-                <Link to='/model'><button>Tracking 3D-Model</button></Link><br/><br/>
-                <Link to='/animation'><button>Tracking 3D-Animation</button></Link><br/><br/>
+                <Link to="/"><button>Tracking Square</button></Link>
+                <Link to="/earth"><button>Tracking Earth-Image</button></Link>
+                <Link to='/model'><button>Tracking 3D-Model</button></Link>
+                <Link to='/animation'><button>Tracking 3D-Animation</button></Link>
                 <Link to='/basicScene'><button>3D-Scene</button></Link>
             </div>
         </>
