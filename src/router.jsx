@@ -5,6 +5,7 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 const TrackingScence = React.lazy(() => import('./container/tracking'));
 const EarthTrackingScence = React.lazy(() => import('./container/earthTracking'));
 const ModelTrackingScence = React.lazy(() => import('./container/3Dmodel'));
+const AnimationModelTrackingScence = React.lazy(() => import('./container/3DAnimation'));
 const BasicTemplateScence = React.lazy(() => import('./container/sceneTemplate'));
 
 const AppRouter = () => {
@@ -25,6 +26,9 @@ const AppRouter = () => {
                         </Route>
                         <Route exact path="/basicScene">
                             <BasicTemplateScence />
+                        </Route>
+                        <Route exact path="/animation">
+                            < AnimationModelTrackingScence/>
                         </Route>
                     </Switch>
                 </Router>
